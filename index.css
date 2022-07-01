@@ -1,0 +1,138 @@
+.contenido{
+  border: 0px solid red;
+  width: 60%;
+}
+
+.contenido-section{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.burble{
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-image: radial-gradient(circle at 50% -20.71%, #cbe7e1 0, #cae7e3 6.25%, #c9e7e6 12.5%, #c9e7e8 18.75%, #c9e7eb 25%, #c9e7ed 31.25%, #cae6ef 37.5%, #cbe6f1 43.75%, #cde5f2 50%, #cfe4f3 56.25%, #d1e4f4 62.5%, #d4e3f5 68.75%, #d7e2f5 75%, #dae1f5 81.25%, #dde0f4 87.5%, #e0e0f4 93.75%, #e3dff2 100%);
+}
+.imagen{
+  height:70px;
+  width: 6%;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+.imagen > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.onli{
+  display: flex;
+  align-items: flex-end;
+}
+
+.caja-nom{
+  border: 0px solid red ;
+  display: flex;
+  position: absolute;
+  right: 48%;
+}
+
+
+.onli{
+  border: 0px solid red;
+}
+
+.p-nom{
+  font-size: 18px;
+  font-family: verdana;
+  color: #0a138f;
+}
+
+.p-date{
+  font-family: verdana;
+  font-size: 16px;
+  color: #052f42;
+}
+
+.onli p{
+  font-size: 16px;
+  font-family: verdana;
+  color: #0c8f37;
+}
+
+.message-priview{
+  border: 0px solid red;
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.message{
+  font-size: 16px;
+  color: #797979;
+  font-family: verdana;
+}
+
+.cajabtn{
+  border: 0px solid red;
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+
+.btn1{
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all .5s ease;
+  font-family: verdana;
+  font-size: 15px;
+  background-color: #eeeeee;
+}
+
+.ver-icono{
+  border: 1px solid red;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.btn2{
+  border: 2px solid #cacaca;
+  background-color: #052f422c;
+  color: #454545;
+}
+
+.btn1:hover{
+  background-color: #454545;
+  color: #aaaaaa;
+}
+
+.btn2:hover{
+  color: #fff;
+  background-color: #05527660;
+  border: 2px solid #fff;
+}
+
+/*-----------------responsive--------------------*/
+@media screen and (max-width:1657px){
+  .caja-nom{
+    right: 47%;
+  }
+}
+
+@media screen and (max-width:1447px){
+  .caja-nom{
+    right: 45%;
+  }
+}
